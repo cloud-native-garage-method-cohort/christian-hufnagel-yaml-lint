@@ -1,6 +1,5 @@
 apiVersion: tekton.dev/v1beta1
 kind: Pipeline
-inconsistent yaml
 metadata:
   name: nodejs
 spec:
@@ -21,4 +20,3 @@ spec:
           workspace: pipeline-shared-data
   workspaces:
     - name: pipeline-shared-data
-this is not correct

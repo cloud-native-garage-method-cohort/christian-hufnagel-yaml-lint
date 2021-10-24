@@ -3,7 +3,6 @@ kind: Pipeline
 metadata:
   name: nodejs
 spec:
-awdnaowidaid
   params:
     - name: source-repo
       type: string
@@ -21,5 +20,3 @@ awdnaowidaid
           workspace: pipeline-shared-data
   workspaces:
     - name: pipeline-shared-data
-    oawdn
-    incorrect
